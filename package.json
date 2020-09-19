@@ -1,0 +1,33 @@
+{
+  "name": "@adrianhorizon/translate-components",
+  "version": "0.0.2",
+  "description": "Text translata aplication adriancaminos.me",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian camilo caminos <camilod4568@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adrianhorizon/translate-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adrianhorizon/translate-components/issues"
+  },
+  "homepage": "https://github.com/adrianhorizon/translate-components#readme",
+  "keywords": [
+    "npm",
+    "javascript"
+  ],
+  "devDependencies": {
+    "eslint": "^7.9.0"
+  },
+  "license": "MIT",
+  "bin": {
+    "translate-components": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
